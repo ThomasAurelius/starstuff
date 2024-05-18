@@ -223,3 +223,11 @@ footer {
    background-color: white;
    border-radius: 500px
 }
+
+.emergencybubble {
+      width: 850px;
+      text-align: center;
+      background-color: white;
+      border-radius: 500px;
+      color: white;
+}
