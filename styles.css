@@ -42,9 +42,7 @@
    font-family: 'OpenDyslexic3', sans-serif;
 } */
 
-.fa-brands {
-   font-family: monospace;
-}
+
 
 nav {
       background-color: var(--secondary-bg-color);
@@ -54,6 +52,16 @@ nav {
       display: flex;
       justify-content: flex-end;
       
+      
+}
+
+.nav {
+      position: fixed;
+      width: 100%;
+      z-index: 100;
+      top: 0;     
+      opacity: .99;
+            
 }
 
 nav a {
@@ -127,6 +135,7 @@ section {
 }
 .herowrap {
    position: relative;
+margin-top: 60px;
    z-index: 1;
 }
 
@@ -231,3 +240,4 @@ footer {
       border-radius: 500px;
       color: white;
 }
+
