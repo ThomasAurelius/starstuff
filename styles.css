@@ -218,14 +218,14 @@ footer {
 }
 
 .bubble {
-   width: 350px;
+   width: 400px;
    text-align: center;
    background-color: white;
    border-radius: 500px
 }
 
 .emergencybubble {
-      width: 850px;
+      width: 800px;
       text-align: center;
       background-color: white;
       border-radius: 500px;
