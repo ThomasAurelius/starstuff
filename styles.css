@@ -417,3 +417,32 @@ footer {
 
       width: 550px;
 }
+
+.stars1 {
+      width: 50px;
+}
+
+.stars2 {
+      width: 100px;
+      margin-left: 150px;
+}
+
+.stars3 {
+      width: 150px;
+     
+}
+
+.meetimgs {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: row;
+      gap: 1rem;
+}
+
+.amieimg {
+      width: 300px;
+      border-radius: 50%;
+      margin: 0 auto;
+      display: block;
+}
