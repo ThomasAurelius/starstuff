@@ -287,4 +287,80 @@ footer {
       flex-direction: column;
       gap: 1rem;
       padding-bottom: 20px;
+      
+}
+
+.contactinfo {
+      padding-top: 100px;
+      min-height: 500px;
+      text-align: center;
+}
+.contactform {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 1rem;
+      
+      padding-bottom: 100px;
+}
+
+.contactform > form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 1rem;
+}
+
+.contactform > form > input {
+      padding: 0.5rem;
+      border-radius: var(--main-border-radius);
+      border: 1px solid var(--main-border-color);
+      font-size: 2rem;
+      
+}
+
+.contactform > form > textarea {
+      padding: 0.5rem;
+      border-radius: var(--main-border-radius);
+      border: 1px solid var(--main-border-color);
+      min-height: 200px;
+      min-width: 500px;
+}
+
+.contactform > form > button {
+      padding: 0.5rem 1rem;
+      border-radius: var(--main-border-radius);
+      border: 1px solid var(--main-border-color);
+      background-color: var(--main-bg-color);
+      color: var(--main-text-color);
+      cursor: pointer;
+      transition: var(--main-transition);
+}           
+
+.contactform > form > button:hover {
+      background-color: var(--main-link-color);
+}
+
+.contactform > form > button:active {
+      background-color: var(--main-link-hover-color);
+}
+
+.contactform > form > button:focus {
+      outline: none;
+}
+
+.contactform > form > button:disabled {
+      background-color: var(--main-border-color);
+      color: var(--main-text-color);
+      cursor: not-allowed;
+}
+
+.radiobuttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      width: 550px;
 }
