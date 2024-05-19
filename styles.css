@@ -91,6 +91,15 @@ nav > img {
       padding: 0;
 }
 
+.active {
+      color: var(--main-link-color);
+      border-bottom: 3px solid var(--main-link-color);
+}
+
+.active a {
+      color: var(--main-link-color);
+}
+
 .evensection {
       background-color: var(--secondary-bg-color);
       color: var(--secondary-text-color);
@@ -187,9 +196,7 @@ margin-top: 60px;
       margin-bottom: 1rem;
 }
 
-.about {
-      padding-bottom: 150px;
-}
+
 .btn {
       background-color: var(--main-bg-color);
       color: var(--main-text-color);
@@ -198,6 +205,20 @@ margin-top: 60px;
       border-radius: var(--main-border-radius);
       cursor: pointer;
       transition: var(--main-transition);
+}
+
+.meetamie > img {
+      width: 300px;
+      
+      border-radius: 50%;
+      margin: 0 auto;
+      display: block;
+      
+
+}
+
+.meetamie {
+      padding-bottom: 150px;
 }
 
 .curve {
@@ -254,6 +275,11 @@ footer {
 
 }
 
+.footersmall {
+      font-size: 0.65rem;
+      text-align: center;
+}
+
 .bubble {
    width: 400px;
    text-align: center;
@@ -270,11 +296,11 @@ footer {
 }
 
 .feesection {
-      min-height: 500px;
+      min-height: 600px;
       padding-top:100px;
       display: flex;
       justify-content: center;
-      
+    
       flex-direction: row;
       gap: 2rem;
 }
@@ -303,7 +329,7 @@ footer {
 }
 
 .faq {
-      padding-bottom: 150px;;
+      padding-bottom: 175px;
 }
 
 .faqcontainer {
