@@ -161,7 +161,9 @@ margin-top: 60px;
       
 }
 
-
+.about {
+      padding-bottom: 150px;
+}
 .btn {
       background-color: var(--main-bg-color);
       color: var(--main-text-color);
@@ -241,3 +243,48 @@ footer {
       color: white;
 }
 
+.feesection {
+      min-height: 500px;
+      padding-top:100px;
+      display: flex;
+      justify-content: center;
+      
+      flex-direction: row;
+      gap: 2rem;
+}
+
+.servicesection {
+      min-height: 500px;
+      
+}
+
+.servicesection > ul {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      
+}
+
+.servicesection > ul > li {
+      text-align: center;
+      list-style: none;
+      background-color: var(--secondary-bg-color);
+      color: var(--secondary-text-color);
+      padding: 1rem;
+      border-radius: var(--secondary-border-radius);
+      box-shadow: var(--secondary-box-shadow);
+      transition: var(--secondary-transition);
+}
+
+.faq {
+      padding-bottom: 150px;;
+}
+
+.faqcontainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 1rem;
+      padding-bottom: 20px;
+}
