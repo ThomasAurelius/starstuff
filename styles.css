@@ -196,6 +196,39 @@ margin-top: 60px;
       margin-bottom: 1rem;
 }
 
+.herocontactcontainer {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: row;
+      gap: 1rem;
+
+}
+
+button.herocontact   {
+      background-color: var(--main-border-color);
+      color: var(--main-text-color);
+      border: none;
+      font-size: 1.5rem;
+      padding:  2rem;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: var(--main-transition);
+
+}
+
+.herocontact a {
+      color: var(--secondary-link-color);
+}
+
+.herocontact:hover {
+      background-color: var(--main-link-color);
+}
+
+.herocontact:active {
+      background-color: var(--main-link-hover-color);
+}
+
 
 .btn {
       background-color: var(--main-bg-color);
@@ -278,6 +311,17 @@ footer {
 .footersmall {
       font-size: 0.65rem;
       text-align: center;
+}
+
+.footerbutton a {
+      background-color: var(--main-bg-color);
+      color: var(--main-text-color);
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: var(--main-border-radius);
+      cursor: pointer;
+      transition: var(--main-transition);
+
 }
 
 .bubble {
