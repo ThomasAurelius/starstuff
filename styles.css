@@ -469,3 +469,40 @@ ul.serviceslist {
 ul.feeslist {
       list-style-type: none;
 }
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+      background-color: var(--main-bg-color);
+      color: white;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      text-align: center;
+      border: none;
+      outline: none;
+      transition: 0.4s;
+      font-family: "openDyslexic3", sans-serif;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+      background-color: var(--tertiary-color);
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+      padding: 0 18px;
+      background-color: var(--main-link-hover-color);
+      display: none;
+      overflow: hidden;
+}
+
+.accordioncontainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      
+}
