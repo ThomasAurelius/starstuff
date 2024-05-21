@@ -251,7 +251,7 @@ button.herocontact   {
 }
 
 .meetamie {
-      padding-bottom: 150px;
+      padding-bottom: 200px;
 }
 
 .curve {
@@ -528,6 +528,7 @@ ul.feeslist {
       outline: none;
       transition: 0.4s;
       font-family: "openDyslexic3", sans-serif;
+      font-size: 1.3rem;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -558,4 +559,26 @@ small.servicesmall {
       text-align: center;
       display: flex;    
       justify-content: center;
+}
+
+.aboutbuttoncontainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 1rem;
+      
+      padding-top: 40px;
+      z-index: 100;
+}
+
+.aboutbutton {
+      font-size: 1.5rem;
+      background-color: var(--main-border-color);
+      color: var(--main-text-color);
+}
+
+button.aboutbutton:hover {
+      background-color: var(--main-link-color);
+      cursor: pointer;
 }
