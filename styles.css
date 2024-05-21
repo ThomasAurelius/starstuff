@@ -372,6 +372,8 @@ footer {
       transition: var(--secondary-transition);
 }
 
+
+
 .faq {
       padding-bottom: 175px;
       margin-inline: 2rem;
@@ -549,4 +551,11 @@ ul.feeslist {
       flex-direction: column;
       text-align: center;
       
+}
+
+small.servicesmall {
+      color: var(--secondary-text-color);
+      text-align: center;
+      display: flex;    
+      justify-content: center;
 }
