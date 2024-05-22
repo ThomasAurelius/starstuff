@@ -8,6 +8,9 @@
    src: url('OpenDyslexic3-Bold.ttf');
 
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Rubik+Wet+Paint&display=swap');
+
 * {
       margin: 0;
       padding: 0;
@@ -128,7 +131,7 @@ nav > img {
       transition: var(--main-transition);
       font-family: var(--main-font-family);
       min-height: 50vh;
-      padding: 20px;
+      padding: 0;
 }
 
 .oddsection h1 {
@@ -223,6 +226,7 @@ margin-top: 60px;
       border-radius: var(--main-border-radius);
       cursor: pointer;
       transition: var(--main-transition);
+      text-align: center;
 }
 
 .herocontact {
@@ -528,6 +532,7 @@ ul.feeslist {
       transition: 0.4s;
       font-family: "openDyslexic3", sans-serif;
       font-size: 1.3rem;
+      border: 1px solid var(--main-border-color);
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -551,6 +556,44 @@ ul.feeslist {
       flex-direction: column;
       text-align: center;
       
+}
+
+.accordion2 {
+      background-color: var(--tertiary-color);
+      color: white;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      text-align: center;
+      border: none;
+      outline: none;
+      transition: 0.4s;
+      font-family: "openDyslexic3", sans-serif;
+      font-size: 1.3rem;
+      border: 1px solid var(--main-border-color);
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion2:hover {
+      background-color: var(--tertiary-color);
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel2 {
+      padding: 0 18px;
+      background-color: var(--main-link-hover-color);
+      display: none;
+      overflow: hidden;
+}
+
+.accordioncontainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+
 }
 
 small.servicesmall {
@@ -588,4 +631,30 @@ button.aboutbutton:hover {
 }
 .contactform {
       padding-bottom: 200px;
+}
+
+.goodfaith {
+      
+      padding: 20px;
+      padding-top: 80px;
+      padding-bottom: 200px;
+}
+
+.oddsection h1 {
+      font-size: 3.5rem;
+      text-align: center;
+      margin-bottom: 1rem;
+      
+}
+
+.disclaimer {
+      padding: 20px;
+      margin: 0 auto;
+      padding-bottom: 150px;
+}
+
+.disclaimer h3 {
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 1rem;
 }
