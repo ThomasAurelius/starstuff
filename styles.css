@@ -205,28 +205,13 @@ margin-top: 60px;
 
 }
 
-button.herocontact   {
-      background-color: var(--main-border-color);
-      color: var(--main-text-color);
-      border: none;
-      font-size: 1.5rem;
-      padding:  2rem;
-      border-radius: 50px;
-      cursor: pointer;
-      transition: var(--main-transition);
-
-}
-
 .herocontact a {
-      color: var(--secondary-link-color);
+      color: white;
+      text-align: center;
 }
 
-.herocontact:hover {
-      background-color: var(--main-link-color);
-}
-
-.herocontact:active {
-      background-color: var(--main-link-hover-color);
+.herocontact {
+      
 }
 
 
@@ -238,6 +223,20 @@ button.herocontact   {
       border-radius: var(--main-border-radius);
       cursor: pointer;
       transition: var(--main-transition);
+}
+
+.herocontact {
+      background-color: var(--main-border-color);
+      color: white;
+      border: none;
+      text-align: center;
+      font-size: 1.5rem;
+      font-family: var(--main-font-family);
+      height: 0px;
+      width: 0px;
+      cursor: pointer;
+
+
 }
 
 .meetamie > img {
@@ -581,4 +580,12 @@ small.servicesmall {
 button.aboutbutton:hover {
       background-color: var(--main-link-color);
       cursor: pointer;
+}
+
+.contactform > button {
+      font-size: 1.5rem;
+      cursor: pointer;
+}
+.contactform {
+      padding-bottom: 200px;
 }
