@@ -315,6 +315,10 @@ footer {
       gap: 15px;
 }
 
+.emergencyimage {
+      width: 80%;
+}
+
 .footerhighlight {
       text-align: center;
       color: var(--secondary-bg-color);
