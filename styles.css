@@ -358,11 +358,22 @@ footer {
 }
 
 .emergencybubble {
-      width: 800px;
+      width: 1000px;
+      height: 500px;
       text-align: center;
       /* background-color: white; */
+    
       border-radius: 500px;
       color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+}
+
+.emergencybubble h2 {
+      width: 600px;
+      
 }
 
 .feesection {
@@ -398,7 +409,6 @@ footer {
       box-shadow: var(--secondary-box-shadow);
       transition: var(--secondary-transition);
 }
-
 
 
 .faq {
@@ -502,7 +512,6 @@ footer {
 
 .stars3 {
       width: 150px;
-     
 }
 
 .meetimgs {
@@ -747,7 +756,6 @@ hr {
       background-color: white;
       margin: 40px auto 0;
       display: block;
-    
 }
 
 .podcasts {
@@ -769,5 +777,4 @@ hr {
 
 /* Media Queries */
 @media (min-width: 1250px) {
-    
 }
