@@ -520,7 +520,7 @@ footer {
       width: 150px;
 }
 
-.meetimgs {
+.meetings {
       display: flex;
       justify-content: space-around;
       align-items: center;
@@ -528,8 +528,13 @@ footer {
       gap: 1rem;
 }
 
+.meetamie p {
+      max-width: 800px;
+      margin: 0 auto;
+}
+
 .amieimg {
-      width: 300px;
+      width: 500px;
       border-radius: 50%;
       margin: 0 auto;
       display: block;
