@@ -411,6 +411,11 @@ footer {
       transition: var(--secondary-transition);
 }
 
+.servicesheadliner {
+      max-width: 800px;
+      margin: 0 auto;
+      padding-bottom: 20px;
+}
 
 .faq {
       padding-bottom: 175px;
