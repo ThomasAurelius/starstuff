@@ -9,27 +9,22 @@
 
 </head>
 <header>
-<div class="nav">
-   <nav>
+<div>
+   <nav class="nav">
       <img src="Celtic-Triple-Spiral-PNG-Transparent-Image.png" alt="Star Stuff Counseling PLLC logo" class="logo">
-      <ul>
-         <li class="active"><a href="index.html">Home</a></li>
-         <li><a href="about.html">About</a></li>
-         <li><a href="resources.html">Resources</a></li>
-         <li><a href="notices.html">Notices</a></li>
-         <li><a href="contact.html">Contact</a></li>
-         <li id="spotifynav" class="spotifynav">
-            <img src="spotify.png" alt="Spotify logo" class="spotifylogo">
-            <div id="widget" class="widget">
-               <iframe style="border-radius:12px"
-                  src="https://open.spotify.com/embed/playlist/1gAc6Q9TXtpSIaGcv3I9DO?utm_source=generator" width="100%"
-                  height="352" frameBorder="0" allowfullscreen=""
-                  allow="autoplay; clipboard-write; encrypted-media;  picture-in-picture" loading="lazy"></iframe>
-            </div>
-         </li>
-      </ul>
+      <div class="topnav" id="topnav">
+         <a class="active" href="index.html">Home</a>
+         <a href="about.html">About</a>
+         <a href="resources.html">Resources</a>
+         <a href="notices.html">Notices</a>
+         <a href="contact.html">Contact</a>
+      </div>
+      <a href="javascript:void(0);" class="navicon" onclick="toggleNav()"><img class="navicon" src="hamburger.jpg"
+            alt="menu icon"></a>
+
    </nav>
 </div>
+
 </header>
 <!-- <div class="curveheader">
    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -41,8 +36,8 @@
 
 <body>
    <section class="oddsection">
-    <div class="resourcesbooks">
       <h1>Resources</h1>
+    <div class="resourcesbooks">
       <hr>
       <div>
          <h2>Books</h2>
@@ -227,7 +222,7 @@
          read easier.</small>
    </footer>
    
-
+<script src="script.js"></script>
 </body>
 
 </html>
