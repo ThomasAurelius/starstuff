@@ -456,6 +456,25 @@ footer {
       
 }
 
+.playlists {
+      background-color: #c490d1;
+}
+
+.playlist {
+      width: 600px;
+}
+
+.spotify {
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 2rem;
+      padding-bottom: 200px;
+
+}
+
 .contactinfo {
       padding-top: 100px;
       min-height: 500px;
