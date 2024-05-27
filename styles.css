@@ -100,6 +100,11 @@ nav > img {
       width: 30px;
 }
 
+.spotifynav {
+      margin: 0;  
+      padding: 0;
+}
+
 .widget {
       display: none;
       position: fixed;
@@ -115,12 +120,7 @@ nav > img {
       height: 500px;
 }
 
-.spotify:hover {
-      
-      width: 100%;
-      height: 100%;
-      z-index: 100;
-}
+
 .active {
       color: var(--main-link-color);
       border-bottom: 3px solid var(--main-link-color);
@@ -861,13 +861,18 @@ hr {
 }
 
 .servicestop {
-      width: 600px;
+      width: 1200px;
       margin: 0 auto;
-      background-image: url(northern-lights.jpg);
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      
+}
+
+.servicestopright img {
+      width: 500px;
+      border-radius: 5px;
 }
 
 .servicestop p {
@@ -878,6 +883,12 @@ hr {
       padding: 20px;
       margin-bottom: 20px;
 
+}
+
+.servicesheadliner {
+      max-width: 800px;
+      margin: 0 auto;
+      padding-bottom: 20px;
 }
 
 
