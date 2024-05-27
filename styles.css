@@ -346,6 +346,7 @@ footer {
 .footerhighlight {
       text-align: center;
       color: var(--secondary-bg-color);
+      max-width: 800px;
 }
 
 .footerconnections {
