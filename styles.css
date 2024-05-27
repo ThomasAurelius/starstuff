@@ -358,6 +358,11 @@ footer {
 
 }
 
+.footerconnections img {
+      width: 50px;
+
+}
+
 .footersmall {
       font-size: 0.65rem;
       text-align: center;
