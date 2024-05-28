@@ -144,15 +144,16 @@ nav > img {
 }
 
 
-.active {
+.activelink {
       color: var(--main-link-color);
-      border-bottom: 3px solid var(--main-link-color);
-      background-color: var(--secondary-bg-color);
+      
+      text-decoration: underline;
+      
 }
 
-.active a {
+.activelink a {
       color: var(--main-link-color);
-      background-color: var(--secondary-bg-color);
+      
 }
 
 section {
@@ -370,7 +371,9 @@ footer {
       text-align: center;
       color: var(--secondary-bg-color);
       max-width: 800px;
+      margin: 0 auto;
 }
+
 
 .footerconnections {
    display: flex;
@@ -924,7 +927,18 @@ hr {
 }
 
 
+.ally {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      margin: 0 auto;
+}
 
+.ally img {
+      width: 200px;
+      
+}
 
 
 /* Media Queries */
