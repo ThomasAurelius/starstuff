@@ -6,7 +6,31 @@
    <title>Star Stuff Counseling PLLC</title>
    <link rel="stylesheet" href="styles.css">
    <script src="https://kit.fontawesome.com/4cab0fa56f.js" crossorigin="anonymous"></script>
-
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+   <script type="text/javascript">
+      (function () {
+         // https://dashboard.emailjs.com/admin/account
+         emailjs.init({
+            publicKey: "7-HbHr1-fWk3t6mfC",
+         });
+      })();
+   </script>
+   <script type="text/javascript">
+      window.onload = function () {
+         document.getElementById('contact-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+            // these IDs from the previous steps
+            emailjs.sendForm('service_jxk48vb', 'template_xeowucj', this)
+               .then(() => {
+                  console.log('SUCCESS!');
+                  alert('Your message has been sent!');
+               }, (error) => {
+                  console.log('FAILED...', error);
+                  alert('Your message was not sent. Please try again later.');
+               });
+         });
+      }
+   </script>
 </head>
 <header>
    <div>
@@ -57,7 +81,7 @@
    <section class="evensection">
       <div class="contactform">
          <h2>Contact Form</h2>
-         <form action="https://formsubmit.co/starstuffcounseling@gmail.com" method="post">
+         <form id="contact-form">
             <div class="formtop">
                <div class="form1">
                   <div>
@@ -139,7 +163,7 @@
             </fieldset>
             <label for="message">Message:</label>
             <textarea id="message" name="message" required></textarea>
-            <button type="submit" class="btn">Submit</button>
+            <button type="submit" value="Send" class="btn">Submit</button>
          </form>
       </div>
       
