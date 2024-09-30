@@ -204,6 +204,13 @@ section {
       font-size: 3.5rem;
 }
 
+.herologo {
+      width: 400px;
+      margin: 0 auto;
+      display: block;
+      border-radius: 5px;
+}
+
 .oddsection h2 {
       color: var(--main-text-color);
       font-size: 2rem;
