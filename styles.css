@@ -1,13 +1,4 @@
-@font-face {
-   font-family: OpenDyslexic3;
-   src: url('OpenDyslexic3-Regular.ttf');
-}
 
-@font-face {
-   font-family: OpenDyslexic3Bold;
-   src: url('OpenDyslexic3-Bold.ttf');
-
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Rubik+Wet+Paint&display=swap');
 
@@ -16,9 +7,9 @@
       padding: 0;
       box-sizing: border-box;
 
-      --main-bg-color: #324366;
+      --main-bg-color: #e1e2e4;
       --main-text-color: white;
-      --main-link-color: #a0d2db;
+      --main-link-color: #047b91;
       --main-link-hover-color: #c490d1;
       --main-border-color: #ccc;
       --main-border-radius: 0.25rem;
@@ -26,7 +17,7 @@
       --main-transition: 0.3s;
       --main-font-family: 'OpenDyslexic3', sans-serif;
 
-      --secondary-bg-color: #b8336a;
+      --secondary-bg-color: #ebeaea;
       --secondary-text-color: white;
       --secondary-link-color: #7d8cc4;
       --secondary-link-hover-color: #a0d2db;
@@ -37,8 +28,8 @@
       --secondary-font-family: 'OpenDyslexic3', sans-serif;
 
       --accent-color: #a0d2db;
-      --tertiary-color: #7d8cc4;
-      --fourth-color: #519e8a;
+      --tertiary-color: #ededee;
+      --fourth-color: #f0f3f2;
 
 }
 
@@ -46,17 +37,20 @@
    font-family: 'OpenDyslexic3', sans-serif;
 } */
 
+p, h1, h2, h3, h4, h5, h6 {
+      color: black;
+}
 
 
 .nav {
       background-color: var(--secondary-bg-color);
-      color: var(--main-bg-color);
+      color: black;
       font-family: var(--main-font-family);
       padding: 1rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      height: 100px;
+      height: 60px;
       overflow: hidden; 
       
       width: 100%;
@@ -81,9 +75,10 @@
 }
 
 nav a {
-      color: white;
+      color: black;
       text-decoration: none;
       transition: var(--main-transition);
+      padding: 3px;
 }
 
 nav a:hover {
@@ -167,14 +162,14 @@ section {
       box-shadow: var(--secondary-box-shadow);
       transition: var(--secondary-transition);
       font-family: var(--secondary-font-family);
-      min-height: 50vh;
+      /* min-height: 50vh; */
       padding: 0 2rem;
       padding-bottom: 3rem;
       z-index: 10;
 }
 
 .evensection h2 {
-      color: var(--secondary-text-color);
+      color: black;
       font-size: 2rem;
       text-align: center;
       margin-bottom: 1rem;
@@ -184,16 +179,16 @@ section {
 
 .oddsection {
       background-color: var(--main-bg-color);
-      color: var(--main-text-color);
+      color: black;
       box-shadow: var(--main-box-shadow);
       transition: var(--main-transition);
       font-family: var(--main-font-family);
-      min-height: 50vh;
+      /* min-height: 50vh; */
       padding: 0;
 }
 
 .oddsection h1 {
-      color: var(--main-text-color);
+      color: black;
       font-size: 2.5rem;
       text-align: center;
       margin-bottom: 1rem;
@@ -212,7 +207,7 @@ section {
 }
 
 .oddsection h2 {
-      color: var(--main-text-color);
+      color: black;
       font-size: 2rem;
       text-align: center;
       margin-bottom: 1rem;
@@ -220,7 +215,7 @@ section {
       z-index: 10;
 }
 
-section {
+.section {
       padding: 2rem;
 }
 
@@ -240,7 +235,7 @@ section {
       
    height: 100%;
    opacity: 1;
-   background-image: url(starryskycurve2.png);
+   background-image: url('starrysky.jpg');
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -249,8 +244,9 @@ section {
 
 .hero {
    position: relative;
-      height: 100vh;
+      height: 100%;
       padding-top: 50px;
+      padding-bottom: 35px;
       z-index: 1;
       opacity: 1;
 }
@@ -259,8 +255,7 @@ section {
       width: 800px;
       text-align: center;
       margin: 0 auto;
-      font-size: 2rem;
-      color: var(--main-text-color);
+      font-size: rem;      color: var(--main-text-color);
       text-align: center;
       margin-bottom: 1rem;
 }
@@ -380,7 +375,7 @@ footer {
 
 .footerhighlight {
       text-align: center;
-      color: var(--secondary-bg-color);
+      color: black;
       max-width: 800px;
       margin: 0 auto;
 }
@@ -407,13 +402,19 @@ footer {
 }
 
 .footerbutton a {
-      background-color: var(--main-bg-color);
+      background-color: black;
       color: var(--main-text-color);
       border: none;
       padding: 0.5rem 1rem;
       border-radius: var(--main-border-radius);
       cursor: pointer;
       transition: var(--main-transition);
+      font-size: 2rem;
+
+}
+
+.footerbutton.btn {
+      padding: 0;
 
 }
 
@@ -445,19 +446,27 @@ footer {
 }
 
 .feesection {
-      min-height: 600px;
+      
       padding-top:100px;
       display: flex;
       justify-content: center;
       padding-inline: 40px;
       flex-direction: row;
       gap: 2rem;
+      color: black;
 }
 
+.feesection  li {
+      font-size: 1.5rem;;
+}
+
+.feesection p {
+      font-size: 1.5rem;
+}
 .servicesection {
       min-height: 500px;
       padding: 20px;
-      padding-bottom: 200px;
+      
       max-width: 800px;
       width: 90vw;
       margin: 0 auto;
@@ -488,7 +497,7 @@ footer {
 }
 
 .faq {
-      padding-bottom: 175px;
+      padding-block: 25px;
       margin-inline: 2rem;
 }
 
@@ -503,7 +512,7 @@ footer {
 }
 
 .playlists {
-      background-color: #c490d1;
+      background-color: white;
 }
 
 .playlist {
@@ -519,6 +528,10 @@ footer {
       gap: 2rem;
       padding-bottom: 200px;
 
+}
+
+.spotify h2 {
+      font-size: 3rem;;
 }
 
 .contactinfo {
@@ -655,7 +668,7 @@ ul.feeslist {
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
       background-color: var(--main-bg-color);
-      color: white;
+      color: black;
       cursor: pointer;
       padding: 18px;
       width: 100%;
@@ -676,12 +689,13 @@ ul.feeslist {
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-      padding: 0 18px;
-      background-color: var(--main-link-hover-color);
+      padding: 6px 18px;
+      background-color: white;
       display: none;
       overflow: hidden;
       max-width: 800px;
       text-align: left;
+      margin-bottom: 6px;
 }
 
 .panel ul {
@@ -736,16 +750,26 @@ ul.feeslist {
 }
 
 small.servicesmall {
-      color: var(--secondary-text-color);
+      color: BLACK;
       text-align: center;
       display: flex;    
       justify-content: center;
 }
 
 .about {
-      padding: 20px;
-      padding-bottom: 150px;
+      padding-top: 20px;
+      padding-inline: 4rem;
+      color: black;
+      font-size: 1.4rem;
+      line-height: 1.3;
 
+}
+
+.amieimg {
+      padding-bottom: 20px;
+}
+.meetamie p {
+      font-size: 1.rem;
 }
 .aboutbuttoncontainer {
       display: flex;
@@ -761,7 +785,13 @@ small.servicesmall {
 .aboutbutton {
       font-size: 1.5rem;
       background-color: var(--main-border-color);
-      color: var(--main-text-color);
+      background-color: black;
+}
+
+.aboutbutton a {
+
+      color: white;
+      text-decoration: none;
 }
 
 button.aboutbutton:hover {
@@ -780,8 +810,7 @@ button.aboutbutton:hover {
 .goodfaith {
       
       padding: 20px;
-      padding-top: 120px;
-      padding-bottom: 200px;
+      
 }
 
 .oddsection h1 {
@@ -792,9 +821,9 @@ button.aboutbutton:hover {
 }
 
 .disclaimer {
-      padding: 20px;
+      padding-block: 20px;
       margin: 0 auto;
-      padding-bottom: 150px;
+      
 }
 
 .disclaimer h3 {
@@ -805,12 +834,12 @@ button.aboutbutton:hover {
 
 .thanks {
       text-align: center;
-      padding-top: 100px;
+      padding-block: 100px;
 }
 
 .resourcesimage {
-      width: 300px;
-      margin: 0 auto;
+      width: 200px;
+      margin: 10px auto;
       display: block;
 }
 
@@ -822,7 +851,7 @@ button.aboutbutton:hover {
       gap: 2rem;
       margin-bottom: 300px;
       padding: 20px;
-      padding-block: 200px;
+      /* padding-block: 200px; */
 
       max-width: 80%;
       margin: 0 auto;
@@ -923,7 +952,20 @@ hr {
 }
 
 .servicestopleft {
-      width: 600px;
+      width: 800px;
+      
+}
+
+.servicestopleft h2 {
+      color: black;
+}
+
+.servicesection h2 {
+      color:  black;
+}
+
+.servicesmall small {
+      color: black;
 }
 
 .servicestop p {
