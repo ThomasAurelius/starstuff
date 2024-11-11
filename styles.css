@@ -178,7 +178,7 @@ section {
 }
 
 .oddsection {
-      background-color: var(--main-bg-color);
+      background-color: var(--fourth-color);
       color: black;
       box-shadow: var(--main-box-shadow);
       transition: var(--main-transition);
@@ -339,7 +339,7 @@ section {
 } */
 
 footer {
-      background-color: var(--tertiary-color);
+      background-color: var(--fourth-color);
       color: var(--main-bg-color);
       font-family: var(--main-font-family);
       padding: 1rem;
@@ -463,6 +463,162 @@ footer {
 .feesection p {
       font-size: 1.5rem;
 }
+
+.servicestitle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-image: url('stripe-pink.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 500px;
+      height: 100px;
+      margin: 0 auto;
+}
+
+.modalitiestitle {
+      display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+      background-image: url('stripe-light-blue.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 500px;
+      height: 100px;
+      margin: 0 auto;
+
+}
+
+
+
+.meetamietitle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-image: url('stripe-pink.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 500px;
+      height: 100px;
+      margin: 0 auto;
+}
+
+.professionalinfotitle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-image: url('stripe-light-blue.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 500px;
+      height: 100px;
+      margin: 0 auto;
+}
+
+.faqtitle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-image: url('stripe-pink.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 700px;
+      height: 200px;
+      margin: 0 auto;
+}
+
+.feestitle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-image: url('stripe-dark-blue.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 500px;
+      height: 100px;
+      margin: 0 auto;
+}
+
+.feestitle h2 {
+      color: white;
+}
+
+.insurancetitle h2 {
+      color: white;
+}     
+
+.insurancetitle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-image: url('stripe-purple.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 500px;
+      height: 100px;
+      margin: 0 auto;
+}
+
+.meetamietitle h2 {
+      font-size: 3rem;
+}
+
+.resourcestitle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-image: url('stripe-pink.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 500px;
+      height: 100px;
+      margin: 0 auto;
+}
+
+.noticestitle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-image: url('stripe-pink.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 500px;
+      height: 100px;
+      margin: 0 auto;
+}
+
+.contacttitle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-image: url('stripe-pink.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 500px;
+      height: 100px;
+      margin: 0 auto;
+}
+
 .servicesection {
       min-height: 500px;
       padding: 20px;
@@ -545,7 +701,7 @@ footer {
       align-items: center;
       flex-direction: column;
       gap: 1rem;
-      
+      color: black;
       padding-bottom: 100px;
 }
 
@@ -563,6 +719,29 @@ footer {
       border: 1px solid var(--main-border-color);
       font-size: 2rem;
       
+}
+
+.formtop {
+      font-size: 1.2rem;
+}
+
+.formtop input {
+      padding: 0.5rem;
+            border-radius: var(--main-border-radius);
+            border: 1px solid var(--main-border-color);
+            font-size: 1.5rem;
+}
+
+.radiobuttons label {
+      font-size: 1.5rem;
+}
+
+.location label {
+      font-size: 1.5rem;
+}
+
+.location legend {
+      font-size: 1.5rem;
 }
 
 .contactform > form > textarea {
