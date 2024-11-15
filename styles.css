@@ -1217,6 +1217,10 @@ hr {
       .emergencyimage {
             width: 95vw;
       }
+
+      .formtop {
+            flex-direction: column;
+      }
 }
 
 @media screen and (max-width: 700px) {
@@ -1308,7 +1312,7 @@ hr {
             padding: 1rem;
       }
 
-      .contactform>form>textarea {
+      textarea#message {
             min-width: 400px;
       }
 
@@ -1371,6 +1375,15 @@ hr {
 @media screen and (max-width: 450px) {
       .meetamietitle h2 {
             font-size: 2rem;
+      }
+
+      .form1 > div {
+            display: flex;
+            flex-direction: column;
+      }
+
+      textarea#message  {
+            min-width: 300px;
       }
 }
 
@@ -1457,12 +1470,16 @@ hr {
                   width: 200px;
             }
 
-            .contactinfo {
-                  margin-bottom: 100px;
+            .form1 input {
+                 width: 85vw;
             }
 
             .professionalinfotitle h2 {
                   font-size: 1.2rem;
+            }
+            
+            textarea#message {
+                  min-width: 85vw;
             }
 }
 
