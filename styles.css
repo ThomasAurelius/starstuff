@@ -160,7 +160,8 @@ nav > img {
 section {
       max-width: 1250px;
       margin:0 auto;
-      background-color: #324366;
+      background-color: var(--fourth-color);
+    
 }
 .evensection {
       background-color: var(--fourth-color);
@@ -232,6 +233,14 @@ section {
    z-index: 1;
 }
 
+.herotext {
+      text-align: center;
+      background-color: var(--fourth-color);
+      max-width: 80vw;
+      margin: 0 auto;
+      padding: 20px;
+}
+
 .herowrap:before {
    content: '';
    position: absolute;
@@ -290,6 +299,8 @@ section {
 .herocontact {
       
 }
+
+
 
 
 .btn {
@@ -499,7 +510,16 @@ footer {
 
 }
 
-
+.abouttitle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url('/stripe-light-blue.png');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 250px;
+}
 
 .meetamietitle {
       display: flex;
@@ -1227,12 +1247,20 @@ hr {
       .formtop {
             flex-direction: column;
       }
+
+      .abouttitle h2 {
+            font-size: 1.2rem;
+      }
 }
 
 @media screen and (max-width: 700px) {
       .footerbutton.btn a {
             font-size: 1.2rem;
       }
+      .abouttitle h2 {
+            font-size: 1.0rem;
+      }
+      
 }
 
 @media screen and (max-width: 600px) {
@@ -1242,7 +1270,9 @@ hr {
            
       }
 
-      
+      .about {
+            padding-inline: 1rem;
+      }
 
       .topnav.responsive a.icon {
             position: absolute;
@@ -1391,6 +1421,9 @@ hr {
       textarea#message  {
             min-width: 300px;
       }
+            .herologo {
+                  width: 250px;
+            }
 }
 
 @media screen and (max-width: 350px){
@@ -1398,6 +1431,8 @@ hr {
                   font-size: 3rem;
                   line-height: 1.2;
             }
+
+            
       
             .hero h2 {
                   font-size: 1rem;
